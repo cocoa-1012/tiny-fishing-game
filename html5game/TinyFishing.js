@@ -6904,14 +6904,14 @@ function _D5(_An, _Bn, _Cn, _Dn, _En) {
 function _E5(_An, _Bn) {
     _An._wv = _y5(_An, _Bn, "companySite", "https://google.com");
     _An._xv = _y5(_An, _Bn, "feedbackEmail", "contact@google.com");
-    _An._yv = _y5(_An, _Bn, "companyTwitterName", "Google");
-    _An._zv = _y5(_An, _Bn, "socialInstagramLink", "http://google.com/redir/in.html");
-    _An._Av = _y5(_An, _Bn, "socialFacebookLink", "http://google.com/redir/fb.html");
-    _An._Bv = _y5(_An, _Bn, "socialTwitterLink", "http://google.com/redir/tw.html");
-    _An._Cv = _x5(_An, _Bn, "Google", "weblink", "http://google.com");
-    _An._Dv = _x5(_An, _Bn, "Google", "googleplayLink", "http://google.com/redir/gp.html");
-    _An._Ev = _x5(_An, _Bn, "Google", "appstoreLink", "http://google.com/redir/as.html");
-    _An._Fv = _x5(_An, _Bn, "Google", "twitterHashtags", "Google, Google2, Google3");
+    _An._yv = _y5(_An, _Bn, "companyTwitterName", "google");
+    _An._zv = _y5(_An, _Bn, "socialInstagramLink", "http://dunkbrush.google.com/redir/in.html");
+    _An._Av = _y5(_An, _Bn, "socialFacebookLink", "http://dunkbrush.google.com/redir/fb.html");
+    _An._Bv = _y5(_An, _Bn, "socialTwitterLink", "http://dunkbrush.google.com/redir/tw.html");
+    _An._Cv = _x5(_An, _Bn, "DunkBrush", "weblink", "http://dunkbrush.google.com");
+    _An._Dv = _x5(_An, _Bn, "DunkBrush", "googleplayLink", "http://dunkbrush.google.com/redir/gp.html");
+    _An._Ev = _x5(_An, _Bn, "DunkBrush", "appstoreLink", "http://dunkbrush.google.com/redir/as.html");
+    _An._Fv = _x5(_An, _Bn, "DunkBrush", "twitterHashtags", "DunkBrush, Threepoint, HotGame");
 } // /// @description screen_scaler_create(target view width, target view height, SCALE_MODE)
 // /// @param target view width
 // /// @param  target view height
