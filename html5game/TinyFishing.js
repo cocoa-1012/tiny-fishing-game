@@ -28281,9 +28281,10 @@ function _08(_An, _Bn, _Cn) {
   _m5(
     _An,
     _Bn,
-    yyfplus("fish unlocked [on depth = ", 5)
+    yyfplus("fish unlocked [on depth = ", _6o(_2q(_3t(_Cn, "minDepth"))))
     // yyfplus("fish unlocked [on depth = ", _6o(_2q(_3t(_Cn, "minDepth"))))
   );
+  console.log("_Cn", _Cn);
 } // /// @description createFish(Depth)
 // /// @param Depth
 function _18(_An, _Bn, _Cn) {
