@@ -28288,7 +28288,7 @@ function _08(_An, _Bn, _Cn) {
 } // /// @description createFish(Depth)
 // /// @param Depth
 function _18(_An, _Bn, _Cn) {
-  console.log("_18", _An, _Bn, _Cn);
+  //   console.log("_18", _An, _Bn, _Cn);
   {
     var _eD = _In(77);
     for (var _fD in _eD) {
@@ -28309,6 +28309,7 @@ function _18(_An, _Bn, _Cn) {
 } // /// @description catchFish(fish)
 // /// @param fish
 function _28(_An, _Bn, _Cn) {
+  console.log("_28", _An, _Bn, _Cn, yyGetBool(_On(_An, _Bn, _Cn)._gu));
   if (yyGetBool(_On(_An, _Bn, _Cn)._gu)) {
     return 1;
   }
