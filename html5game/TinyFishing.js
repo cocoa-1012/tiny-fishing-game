@@ -25543,7 +25543,7 @@ function _P6(_An, _Bn) {
     {
       _Nu(
         yyfplus(
-          yyfplus("The signal ", _6o(_2q(_Wz))),
+          yyfplus("The signals ", _6o(_2q(_Wz))),
           " has not been created. No signals to fire."
         )
       );
@@ -33406,7 +33406,7 @@ function _Pa(_An, _Bn) {
 } // draw_text(-250, 100, string_hash_to_newline("fps=" + string(fps)+ @"
 // targ=" + string(targetFPS) +@"
 function _Ra(_An, _Bn) {
-  console.log("_Ra Function",_An, _Bn);
+  console.log("_Ra Function", _An, _Bn);
   _iM(
     -250,
     100,
@@ -51841,7 +51841,7 @@ var _xm1 = function (text) {
     }
   }
   if (_Dm1 != undefined) {
-    if (_Dm1._Um._en) console.log(text);
+    if (_Dm1._Um._en) console.log("TTT", text);
     if (_Dm1._Um._Em1) {
       var _Fm1 = document.getElementById("yyDebugDiv");
       var _Gm1 = document.createElement("P");
@@ -87423,6 +87423,7 @@ var spine;
       for (var _Ca = 0; _Ca < skeleton.bones.length; _Ca++) {
         var bone = skeleton.bones[_Ca];
         console.log(
+          "zzzz",
           bone.data.name +
             ", " +
             bone._y21 +
