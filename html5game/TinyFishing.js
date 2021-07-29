@@ -59855,7 +59855,7 @@ function _yz() {
       if (_DO1(this[_JO1], _G71)) {
         first = ++_JO1;
         _p11 -= _IO1 + 1;
-        console.log("GGG", first, _p11, _IO1);
+        // console.log("GGG", first, _p11, _IO1);
       } else _p11 = _IO1;
     }
     return first;
@@ -61341,6 +61341,7 @@ function _yz() {
         var _vT1 = _rT1 * _rT1 + _tT1 * _rT1 + _tT1 * _tT1;
         var _wT1 = _sT1 * _sT1 + _uT1 * _sT1 + _uT1 * _uT1;
         _1S1 += 0.25 * _mT1 * _pT1 * (_vT1 + _wT1);
+        console.log("_1s1", _1S1);
       }
       _cS1._0S1 = _dS1 * _lT1;
       _4P1(_lT1 > _7P1);
@@ -61348,6 +61349,7 @@ function _yz() {
       _cS1._DR1 = _TP1._S81(_DR1, _Tm1);
       _cS1._1S1 = _dS1 * _1S1;
       _cS1._1S1 += _cS1._0S1 * (_QQ1(_cS1._DR1, _cS1._DR1) - _QQ1(_DR1, _DR1));
+      console.log("_cS1._1S1", _cS1._1S1);
     },
     _s71: function () {
       return this._OS1;
