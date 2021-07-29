@@ -32407,6 +32407,7 @@ function _8a(_An, _Bn, _Cn, _Dn, _En) {
 // /// @param  colorID
 // /// @param  size
 function _9a(_An, _Bn, _Cn, _Dn, _En, _Fn, _Gn) {
+  console.log("_9a entered");
   var _yK = cos(yyfdivide(6.28318530717959, _6o(_En)));
   var _zK = sin(yyfdivide(6.28318530717959, _6o(_En)));
   var _AK = random(6.28318530717959);
@@ -39363,6 +39364,7 @@ function _vf(_An, _Bn) {
   _us(_An, _Bn);
 }
 function _wf(_An, _Bn) {
+  console.log("_wf entered");
   _An._EK = _6o(-_6o(_q4(_An, _Bn, 12, 30)));
   _An._lp = _q4(_An, _Bn, 0, 0.5);
   _An._bo = 0.7;
@@ -45967,6 +45969,7 @@ function _Kl(_An, _Bn) {
   _us(_An, _Bn);
 }
 function _Ll(_An, _Bn) {
+  console.log("_Ll entered");
   _n4(_An, _Bn);
   _An._EK = 0;
   _An._FK = 0;
