@@ -13226,7 +13226,8 @@ var _U1 = {
       _Ka: 171,
       _Wa: !0,
       parent: 133,
-      _Ma: _Ek,
+      // _Ma: _Ek,
+      _Ma: console.log("SDFSDF"),
       _gb: _Fk,
       _gc: _Gk,
       _Ue: _Hk,
@@ -32439,7 +32440,7 @@ function _9a(_An, _Bn, _Cn, _Dn, _En, _Fn, _Gn) {
         yyfplus(_6o(_Dn), _6o(_bw)),
         184
       );
-      _On(_An, _Bn, _DK)._EK = yyftime(_6o(_aw), 3);
+      // _On(_An, _Bn, _DK)._EK = yyftime(_6o(_aw), 3);
       _On(_An, _Bn, _DK)._FK = yyftime(_6o(_bw), 3);
       _On(_An, _Bn, _DK)._Ip(_6o(-_6o(_Ap(_AK))));
       _On(_An, _Bn, _DK)._5s(_Fn);
@@ -39368,7 +39369,7 @@ function _vf(_An, _Bn) {
 }
 function _wf(_An, _Bn) {
   console.log("_wf entered");
-  _An._EK = _6o(-_6o(_q4(_An, _Bn, 12, 30)));
+  // _An._EK = _6o(-_6o(_q4(_An, _Bn, 12, 30)));
   _An._lp = _q4(_An, _Bn, 0, 0.5);
   _An._bo = 0.7;
   _An._ts = 0;
@@ -39384,7 +39385,7 @@ function _wf(_An, _Bn) {
   }
 }
 function _xf(_An, _Bn) {
-  _An._mp(_An.x + yyftime(_6o(_An._EK), _6o(global._uv)));
+  // _An._mp(_An.x + yyftime(_6o(_An._EK), _6o(global._uv)));
   if (yyfless(_An.x, yyfminus(_6o(_On(_An, _Bn, global._6z)._2w), 150))) {
     {
       _5E(_An, _Bn, 0, 0);
