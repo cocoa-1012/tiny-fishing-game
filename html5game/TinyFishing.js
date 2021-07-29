@@ -32435,7 +32435,7 @@ function _9a(_An, _Bn, _Cn, _Dn, _En, _Fn, _Gn) {
         yyfplus(_6o(_Dn), _6o(_bw)),
         184
       );
-      _On(_An, _Bn, _DK)._EK = yyftime(_6o(_aw), 3);
+      // _On(_An, _Bn, _DK)._EK = yyftime(_6o(_aw), 3);
       _On(_An, _Bn, _DK)._FK = yyftime(_6o(_bw), 3);
       _On(_An, _Bn, _DK)._Ip(_6o(-_6o(_Ap(_AK))));
       _On(_An, _Bn, _DK)._5s(_Fn);
@@ -39363,7 +39363,7 @@ function _vf(_An, _Bn) {
   _us(_An, _Bn);
 }
 function _wf(_An, _Bn) {
-  _An._EK = _6o(-_6o(_q4(_An, _Bn, 12, 30)));
+  // _An._EK = _6o(-_6o(_q4(_An, _Bn, 12, 30)));
   _An._lp = _q4(_An, _Bn, 0, 0.5);
   _An._bo = 0.7;
   _An._ts = 0;
@@ -45968,7 +45968,7 @@ function _Kl(_An, _Bn) {
 }
 function _Ll(_An, _Bn) {
   _n4(_An, _Bn);
-  _An._EK = 0;
+  // _An._EK = 0;
   _An._FK = 0;
   _An._ts = 0;
   _An._Pn(0);
