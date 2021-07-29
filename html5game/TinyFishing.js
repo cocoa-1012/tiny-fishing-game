@@ -30024,6 +30024,8 @@ function _K8(_An, _Bn, _Cn, _Dn, _En, _Fn) {
 function _L8(_An, _Bn, _Cn, _Dn) {
   var _pG = -1;
   var _qG = -1;
+  console.log("sssEntered to climb x 4");
+
   if (yyfequal(global._rG, new Long(1834768886, 1, false))) {
     {
       _pG = _T8(
