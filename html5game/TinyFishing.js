@@ -23419,6 +23419,7 @@ function _m5(_An, _Bn) {
     }
   }
   if (yyGetBool(_l5(_An, _Bn))) {
+    console.log("JS trace", _nr);
     js_trace(_nr);
   } else {
     _Nu(_nr);
