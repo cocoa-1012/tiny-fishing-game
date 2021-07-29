@@ -12842,19 +12842,19 @@ var _U1 = {
       _Ua: [],
       _Va: [],
     },
-    {
-      _92: "ob_gemsForAdBut",
-      _Ka: 56,
-      _Wa: !0,
-      parent: 58,
-      _Ma: _Xi,
-      _gb: _Yi,
-      _vb: _Zi,
-      _Sb: __i,
-      _Sa: _0j,
-      _Ua: [],
-      _Va: [],
-    },
+    // {
+    //   _92: "ob_gemsForAdBut",
+    //   _Ka: 56,
+    //   _Wa: !0,
+    //   parent: 58,
+    //   _Ma: _Xi,
+    //   _gb: _Yi,
+    //   _vb: _Zi,
+    //   _Sb: __i,
+    //   _Sa: _0j,
+    //   _Ua: [],
+    //   _Va: [],
+    // },
     {
       _92: "ob_page",
       _Ka: -1,
@@ -30024,7 +30024,6 @@ function _K8(_An, _Bn, _Cn, _Dn, _En, _Fn) {
 function _L8(_An, _Bn, _Cn, _Dn) {
   var _pG = -1;
   var _qG = -1;
-  console.log("sssEntered to climb x 4");
 
   if (yyfequal(global._rG, new Long(1834768886, 1, false))) {
     {
@@ -31908,6 +31907,7 @@ function _P9(_An, _Bn) {
   }
 } // /// @description unlockRandomHook()
 function _Q9(_An, _Bn) {
+  console.log("UnlockRandom ring");
   _On(_An, _Bn, global._Wu)._zE = yyfminus(
     _On(_An, _Bn, global._Wu)._zE,
     _On(_An, _Bn, global._Wu)._HE
