@@ -28309,7 +28309,7 @@ function _18(_An, _Bn, _Cn) {
 } // /// @description catchFish(fish)
 // /// @param fish
 function _28(_An, _Bn, _Cn) {
-  console.log("_28", _An, _Bn, _Cn, yyGetBool(_On(_An, _Bn, _Cn)._gu));
+  // console.log("_28", _An, _Bn, _Cn, yyGetBool(_On(_An, _Bn, _Cn)._gu));
   if (yyGetBool(_On(_An, _Bn, _Cn)._gu)) {
     return 1;
   }
