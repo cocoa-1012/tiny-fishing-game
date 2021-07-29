@@ -32437,7 +32437,7 @@ function _9a(_An, _Bn, _Cn, _Dn, _En, _Fn, _Gn) {
         yyfplus(_6o(_Dn), _6o(_bw)),
         184
       );
-      _On(_An, _Bn, _DK)._EK = yyftime(_6o(_aw), 3);
+      // _On(_An, _Bn, _DK)._EK = yyftime(_6o(_aw), 3);
       _On(_An, _Bn, _DK)._FK = yyftime(_6o(_bw), 3);
       _On(_An, _Bn, _DK)._Ip(_6o(-_6o(_Ap(_AK))));
       _On(_An, _Bn, _DK)._5s(_Fn);
@@ -39377,9 +39377,9 @@ function _wf(_An, _Bn) {
       _6o(yyftime(_6o(global._nv), _6o(_q4(_An, _Bn, 0.3, 1.1))))
     )
   );
-  if (yyfequal(_nt._vC(), 5)) {
-    _c4(_An, _Bn, _An.id);
-  }
+  // if (yyfequal(_nt._vC(), 5)) {
+  //   _c4(_An, _Bn, _An.id);
+  // }
 }
 function _xf(_An, _Bn) {
   _An._mp(_An.x + yyftime(_6o(_An._EK), _6o(global._uv)));
@@ -45972,7 +45972,7 @@ function _Kl(_An, _Bn) {
 function _Ll(_An, _Bn) {
   console.log("_Ll entered");
   _n4(_An, _Bn);
-  _An._EK = 0;
+  // _An._EK = 0;
   _An._FK = 0;
   _An._ts = 0;
   _An._Pn(0);
