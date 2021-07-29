@@ -30026,6 +30026,7 @@ function _L8(_An, _Bn, _Cn, _Dn) {
   var _qG = -1;
 
   if (yyfequal(global._rG, new Long(1834768886, 1, false))) {
+    console.log("new ? ");
     {
       _pG = _T8(
         _An,
@@ -30042,6 +30043,7 @@ function _L8(_An, _Bn, _Cn, _Dn) {
       _qG = _T8(_An, _Bn, 58, _05(_An, _Bn, "Claim"), 16777215, 999, _Cn, 0);
     }
   } else {
+    console.log("new ? ? ");
     if (yyfequal(global._rG, 214218)) {
       {
         _pG = _T8(
@@ -32417,7 +32419,7 @@ function _9a(_An, _Bn, _Cn, _Dn, _En, _Fn, _Gn) {
   var _DK;
   var _Xo = 0;
   for (; yyfless(_Xo, _En); _Xo++) {
-    console.log("For loop ", _Xo, _En);
+    console.log("For loop ", _Xo);
     {
       _aw = yyfminus(
         _6o(yyftime(_6o(_BK), _6o(_yK))),
@@ -39377,9 +39379,9 @@ function _wf(_An, _Bn) {
       _6o(yyftime(_6o(global._nv), _6o(_q4(_An, _Bn, 0.3, 1.1))))
     )
   );
-  // if (yyfequal(_nt._vC(), 5)) {
-  //   _c4(_An, _Bn, _An.id);
-  // }
+  if (yyfequal(_nt._vC(), 5)) {
+    _c4(_An, _Bn, _An.id);
+  }
 }
 function _xf(_An, _Bn) {
   _An._mp(_An.x + yyftime(_6o(_An._EK), _6o(global._uv)));
