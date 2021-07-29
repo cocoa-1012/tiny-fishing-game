@@ -30036,6 +30036,8 @@ function _L8(_An, _Bn, _Cn, _Dn) {
         _Dn,
         5
       );
+      console.log("Entered to climb x 4");
+
       _qG = _T8(_An, _Bn, 58, _05(_An, _Bn, "Claim"), 16777215, 999, _Cn, 0);
     }
   } else {
@@ -61341,7 +61343,7 @@ function _yz() {
         var _vT1 = _rT1 * _rT1 + _tT1 * _rT1 + _tT1 * _tT1;
         var _wT1 = _sT1 * _sT1 + _uT1 * _sT1 + _uT1 * _uT1;
         _1S1 += 0.25 * _mT1 * _pT1 * (_vT1 + _wT1);
-        console.log("_1s1", _1S1);
+        // console.log("_1s1", _1S1);
       }
       _cS1._0S1 = _dS1 * _lT1;
       _4P1(_lT1 > _7P1);
@@ -61349,7 +61351,7 @@ function _yz() {
       _cS1._DR1 = _TP1._S81(_DR1, _Tm1);
       _cS1._1S1 = _dS1 * _1S1;
       _cS1._1S1 += _cS1._0S1 * (_QQ1(_cS1._DR1, _cS1._DR1) - _QQ1(_DR1, _DR1));
-      console.log("_cS1._1S1", _cS1._1S1);
+      // console.log("_cS1._1S1", _cS1._1S1);
     },
     _s71: function () {
       return this._OS1;
