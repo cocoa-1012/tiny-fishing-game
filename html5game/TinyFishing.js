@@ -45114,6 +45114,7 @@ function _Dk(_An, _Bn) {
   _us(_An, _Bn);
 }
 function _Ek(_An, _Bn) {
+  console.log("Become Vip entered", _An, _Bn);
   _n4(_An, _Bn);
   _An._XT = 0.6;
   _On(_An, _Bn, _An._ZT)._jr = _05(_An, _Bn, "Become_VIP");
