@@ -39377,9 +39377,9 @@ function _wf(_An, _Bn) {
       _6o(yyftime(_6o(global._nv), _6o(_q4(_An, _Bn, 0.3, 1.1))))
     )
   );
-  // if (yyfequal(_nt._vC(), 5)) {
-  //   _c4(_An, _Bn, _An.id);
-  // }
+  if (yyfequal(_nt._vC(), 5)) {
+    _c4(_An, _Bn, _An.id);
+  }
 }
 function _xf(_An, _Bn) {
   _An._mp(_An.x + yyftime(_6o(_An._EK), _6o(global._uv)));
