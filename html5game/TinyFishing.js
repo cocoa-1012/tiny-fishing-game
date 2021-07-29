@@ -32417,6 +32417,7 @@ function _9a(_An, _Bn, _Cn, _Dn, _En, _Fn, _Gn) {
   var _DK;
   var _Xo = 0;
   for (; yyfless(_Xo, _En); _Xo++) {
+    console.log("For loop ", _Xo, _En);
     {
       _aw = yyfminus(
         _6o(yyftime(_6o(_BK), _6o(_yK))),
