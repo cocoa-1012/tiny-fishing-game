@@ -45120,254 +45120,254 @@ function _Dk(_An, _Bn) {
 }
 function _Ek(_An, _Bn) {
   console.log("Become Vip entered", _An, _Bn);
-  _n4(_An, _Bn);
-  _An._XT = 0.6;
-  _On(_An, _Bn, _An._ZT)._jr = _05(_An, _Bn, "Become_VIP");
-  _On(_An, _Bn, _An._ZT)._wA = _On(_An, _Bn, global._Wu)._AF;
-  var _fp = __3(_An, _Bn, _An._ZT);
-  _On(_An, _Bn, _fp)._Ur = -10;
-  {
-    var _vY = _In(_An._ZT);
-    for (var _wY in _vY) {
-      if (!_vY.hasOwnProperty(_wY)) continue;
-      var _xY = _vY[_wY];
-      if (_xY._Ln) continue;
-      if (!_xY._Mn) continue;
-      {
-        var _yY = _V6(_xY, _An, 172, 250, 0, 1, 1, 0, 0);
-        _On(_An, _Bn, _yY)._ts = 1;
-        _yY = _V6(_xY, _An, 172, -250, 0, 1, 1, 0, 0);
-        _On(_An, _Bn, _yY)._ts = 1;
-        _On(_An, _Bn, _yY)._Pn(_6o(-_6o(_On(_An, _Bn, _yY).__n)));
-      }
-    }
-  }
-  _An._4s(171);
-  _An._zY = _V6(_An, _Bn, 174, 0, -70, 0.9, 1, 0, 0);
-  _fp = __3(_An, _Bn, _An._zY);
-  _On(_An, _Bn, _fp)._Ur = -2;
-  _An._nr = _ga(
-    _An,
-    _Bn,
-    _On(_An, _Bn, _An._zY).x,
-    _On(_An, _Bn, _An._zY).y,
-    167
-  );
-  _On(_An, _Bn, _An._nr)._Tr(yyfminus(_6o(_An._Sr()), 1));
-  _On(_An, _Bn, _An._nr)._5s(1);
-  {
-    var _AY = _In(_An._nr);
-    for (var _BY in _AY) {
-      if (!_AY.hasOwnProperty(_BY)) continue;
-      var _CY = _AY[_BY];
-      if (_CY._Ln) continue;
-      if (!_CY._Mn) continue;
-      _l4(_CY, _An, 2);
-    }
-  }
-  _W3(_An, _Bn, _An._nr, 1, 1, 0, 0, 1);
-  {
-    var _DY = _In(_An._zY);
-    for (var _EY in _DY) {
-      if (!_DY.hasOwnProperty(_EY)) continue;
-      var _FY = _DY[_EY];
-      if (_FY._Ln) continue;
-      if (!_FY._Mn) continue;
-      {
-        _V6(_FY, _An, 175, -210, -100, 1, 1, 1, 0);
-        _FY._jr = _e7(
-          _FY,
-          _An,
-          _05(_FY, _An, "VIP_night_mode"),
-          yyfminus(_6o(_FY.x), 190),
-          yyfminus(_6o(_FY.y), 100),
-          200,
-          200,
-          1,
-          _On(_An, _Bn, global._Wu)._yF,
-          16777215,
-          1,
-          0,
-          1,
-          0
-        );
-        _V3(_FY, _An, _FY._jr, 1, 1, 0);
-        _m4(_FY, _An, 0, 0);
-        _G2(_FY, _An, 0.9, 0.9, 0.5, 11, 0, 0, 0);
-        _G2(_FY, _An, 0.02, 0.02, 1.5, 7, 1, 0.6, 0);
-      }
-    }
-  }
-  var _GY = 130;
-  _An._jr = _e7(
-    _An,
-    _Bn,
-    _05(_An, _Bn, "Exclusive_night_mode"),
-    _An.x,
-    yyfplus(_6o(_An.y), _6o(_GY)),
-    380,
-    500,
-    0.45,
-    _On(_An, _Bn, global._Wu)._2F,
-    _On(_An, _Bn, global._Wu)._RG,
-    1,
-    1,
-    1,
-    0
-  );
-  _On(_An, _Bn, _An._jr)._Tr(yyfminus(_6o(_An._Sr()), 2));
-  _W3(_An, _Bn, _An._jr, 1, 1, 0, 0, 1);
-  _V6(_An, _Bn, 176, -230, _GY, 1, 1, 1, 0);
-  _GY = yyfplus(_GY, 50);
-  _An._jr = _e7(
-    _An,
-    _Bn,
-    _05(_An, _Bn, "No_ads"),
-    _An.x,
-    yyfplus(_6o(_An.y), _6o(_GY)),
-    380,
-    500,
-    0.45,
-    _On(_An, _Bn, global._Wu)._2F,
-    _On(_An, _Bn, global._Wu)._RG,
-    1,
-    1,
-    1,
-    0
-  );
-  _On(_An, _Bn, _An._jr)._Tr(yyfminus(_6o(_An._Sr()), 2));
-  _W3(_An, _Bn, _An._jr, 1, 1, 0, 0, 1);
-  _V6(_An, _Bn, 176, -230, _GY, 1, 1, 1, 0);
-  _GY = yyfplus(_GY, 50);
-  _An._jr = _e7(
-    _An,
-    _Bn,
-    _05(_An, _Bn, "All_money_x_2"),
-    _An.x,
-    yyfplus(_6o(_An.y), _6o(_GY)),
-    380,
-    500,
-    0.45,
-    _On(_An, _Bn, global._Wu)._2F,
-    _On(_An, _Bn, global._Wu)._RG,
-    1,
-    1,
-    1,
-    0
-  );
-  _On(_An, _Bn, _An._jr)._Tr(yyfminus(_6o(_An._Sr()), 2));
-  _W3(_An, _Bn, _An._jr, 1, 1, 0, 0, 1);
-  _V6(_An, _Bn, 176, -230, _GY, 1, 1, 1, 0);
-  _An._pG = -1;
-  _GY = yyfplus(_GY, 140);
-  if (yyfequal(global._rG, new Long(1834768886, 1, false))) {
-    {
-      _An._pG = _T8(_An, _Bn, 51, __4(_An, _Bn, "BUY"), 16777215, 0, 457, 5);
-      _On(_An, _Bn, _An._pG)._mp(_An.x);
-      _On(_An, _Bn, _An._pG)._op(yyfplus(_6o(_An.y), 165));
-      _V3(_An, _Bn, _An._pG, 1, 1, 0);
-    }
-  } else {
-    if (yyfequal(global._rG, 214218)) {
-      {
-        _An._pG = _T8(
-          _An,
-          _Bn,
-          173,
-          _05(_An, _Bn, "Start_free_trial"),
-          16777215,
-          999,
-          457,
-          1.99
-        );
-        _On(_An, _Bn, _An._pG)._sA = yyfminus(_On(_An, _Bn, _An._pG)._sA, 5);
-        _On(_An, _Bn, _An._pG)._mp(_An.x);
-        _On(_An, _Bn, _An._pG)._op(yyfplus(_6o(_An.y), _6o(_GY)));
-        {
-          var _HY = _In(_An._pG);
-          for (var _IY in _HY) {
-            if (!_HY.hasOwnProperty(_IY)) continue;
-            var _JY = _HY[_IY];
-            if (_JY._Ln) continue;
-            if (!_JY._Mn) continue;
-            _V3(
-              _JY,
-              _An,
-              _e7(
-                _JY,
-                _An,
-                __4(_JY, _An, "Free for 3 days, 4.99$ per week after"),
-                _JY.x,
-                yyfplus(_6o(_JY.y), 25),
-                300,
-                50,
-                1,
-                _On(_An, _Bn, global._Wu)._yF,
-                16777215,
-                0.5,
-                1,
-                1,
-                0
-              ),
-              1,
-              1,
-              0
-            );
-          }
-        }
-        _On(_An, _Bn, _An._pG)._Tr(yyfminus(_6o(_An._Sr()), 5));
-        _W3(_An, _Bn, _An._pG, 1, 0, 0, 0, 1);
-      }
-    }
-  }
-  {
-    var _KY = _In(_An._pG);
-    for (var _LY in _KY) {
-      if (!_KY.hasOwnProperty(_LY)) continue;
-      var _MY = _KY[_LY];
-      if (_MY._Ln) continue;
-      if (!_MY._Mn) continue;
-      {
-        _m4(_MY, _An, 0, 0);
-        _G2(_MY, _An, 0.9, 0.9, 0.6, 11, 0, 0, 0);
-        _G2(_MY, _An, 0.1, 0.1, 0.6, 11, 1, 1, 0);
-      }
-    }
-  }
-  _GY = yyfplus(_GY, 100);
-  _An._oI = _17(_An, _Bn, _An.x, yyfplus(_6o(_An.y), _6o(_GY)), -1, 429);
-  _27(
-    _An,
-    _Bn,
-    _An._oI,
-    0,
-    0,
-    __4(_An, _Bn, "NO, THANKS"),
-    200,
-    120,
-    0.9,
-    _On(_An, _Bn, global._Wu)._yF,
-    _On(_An, _Bn, global._Wu)._RG
-  );
-  _87(_An, _Bn, _An._oI, -100, -30, 100, 30);
-  _On(_An, _Bn, _An._oI)._fG = 0.5;
-  _47(_An, _Bn, _An._oI, 0.8);
-  {
-    var _NY = _In(_An._oI);
-    for (var _OY in _NY) {
-      if (!_NY.hasOwnProperty(_OY)) continue;
-      var _PY = _NY[_OY];
-      if (_PY._Ln) continue;
-      if (!_PY._Mn) continue;
-      {
-        _m4(_PY, _An, 0, 0);
-        _G2(_PY, _An, 1, 1, 0.6, 11, 0, 1, 0);
-      }
-    }
-  }
-  _V3(_An, _Bn, _An._oI, 1, 0, 0);
-  _S4(_An, _Bn, _An.id, 4, _q4(_An, _Bn, 0.25, 0.7));
-  _An._QY = 0 ? 1 : 0;
+  // _n4(_An, _Bn);
+  // _An._XT = 0.6;
+  // _On(_An, _Bn, _An._ZT)._jr = _05(_An, _Bn, "Become_VIP");
+  // _On(_An, _Bn, _An._ZT)._wA = _On(_An, _Bn, global._Wu)._AF;
+  // var _fp = __3(_An, _Bn, _An._ZT);
+  // _On(_An, _Bn, _fp)._Ur = -10;
+  // {
+  //   var _vY = _In(_An._ZT);
+  //   for (var _wY in _vY) {
+  //     if (!_vY.hasOwnProperty(_wY)) continue;
+  //     var _xY = _vY[_wY];
+  //     if (_xY._Ln) continue;
+  //     if (!_xY._Mn) continue;
+  //     {
+  //       var _yY = _V6(_xY, _An, 172, 250, 0, 1, 1, 0, 0);
+  //       _On(_An, _Bn, _yY)._ts = 1;
+  //       _yY = _V6(_xY, _An, 172, -250, 0, 1, 1, 0, 0);
+  //       _On(_An, _Bn, _yY)._ts = 1;
+  //       _On(_An, _Bn, _yY)._Pn(_6o(-_6o(_On(_An, _Bn, _yY).__n)));
+  //     }
+  //   }
+  // }
+  // _An._4s(171);
+  // _An._zY = _V6(_An, _Bn, 174, 0, -70, 0.9, 1, 0, 0);
+  // _fp = __3(_An, _Bn, _An._zY);
+  // _On(_An, _Bn, _fp)._Ur = -2;
+  // _An._nr = _ga(
+  //   _An,
+  //   _Bn,
+  //   _On(_An, _Bn, _An._zY).x,
+  //   _On(_An, _Bn, _An._zY).y,
+  //   167
+  // );
+  // _On(_An, _Bn, _An._nr)._Tr(yyfminus(_6o(_An._Sr()), 1));
+  // _On(_An, _Bn, _An._nr)._5s(1);
+  // {
+  //   var _AY = _In(_An._nr);
+  //   for (var _BY in _AY) {
+  //     if (!_AY.hasOwnProperty(_BY)) continue;
+  //     var _CY = _AY[_BY];
+  //     if (_CY._Ln) continue;
+  //     if (!_CY._Mn) continue;
+  //     _l4(_CY, _An, 2);
+  //   }
+  // }
+  // _W3(_An, _Bn, _An._nr, 1, 1, 0, 0, 1);
+  // {
+  //   var _DY = _In(_An._zY);
+  //   for (var _EY in _DY) {
+  //     if (!_DY.hasOwnProperty(_EY)) continue;
+  //     var _FY = _DY[_EY];
+  //     if (_FY._Ln) continue;
+  //     if (!_FY._Mn) continue;
+  //     {
+  //       _V6(_FY, _An, 175, -210, -100, 1, 1, 1, 0);
+  //       _FY._jr = _e7(
+  //         _FY,
+  //         _An,
+  //         _05(_FY, _An, "VIP_night_mode"),
+  //         yyfminus(_6o(_FY.x), 190),
+  //         yyfminus(_6o(_FY.y), 100),
+  //         200,
+  //         200,
+  //         1,
+  //         _On(_An, _Bn, global._Wu)._yF,
+  //         16777215,
+  //         1,
+  //         0,
+  //         1,
+  //         0
+  //       );
+  //       _V3(_FY, _An, _FY._jr, 1, 1, 0);
+  //       _m4(_FY, _An, 0, 0);
+  //       _G2(_FY, _An, 0.9, 0.9, 0.5, 11, 0, 0, 0);
+  //       _G2(_FY, _An, 0.02, 0.02, 1.5, 7, 1, 0.6, 0);
+  //     }
+  //   }
+  // }
+  // var _GY = 130;
+  // _An._jr = _e7(
+  //   _An,
+  //   _Bn,
+  //   _05(_An, _Bn, "Exclusive_night_mode"),
+  //   _An.x,
+  //   yyfplus(_6o(_An.y), _6o(_GY)),
+  //   380,
+  //   500,
+  //   0.45,
+  //   _On(_An, _Bn, global._Wu)._2F,
+  //   _On(_An, _Bn, global._Wu)._RG,
+  //   1,
+  //   1,
+  //   1,
+  //   0
+  // );
+  // _On(_An, _Bn, _An._jr)._Tr(yyfminus(_6o(_An._Sr()), 2));
+  // _W3(_An, _Bn, _An._jr, 1, 1, 0, 0, 1);
+  // _V6(_An, _Bn, 176, -230, _GY, 1, 1, 1, 0);
+  // _GY = yyfplus(_GY, 50);
+  // _An._jr = _e7(
+  //   _An,
+  //   _Bn,
+  //   _05(_An, _Bn, "No_ads"),
+  //   _An.x,
+  //   yyfplus(_6o(_An.y), _6o(_GY)),
+  //   380,
+  //   500,
+  //   0.45,
+  //   _On(_An, _Bn, global._Wu)._2F,
+  //   _On(_An, _Bn, global._Wu)._RG,
+  //   1,
+  //   1,
+  //   1,
+  //   0
+  // );
+  // _On(_An, _Bn, _An._jr)._Tr(yyfminus(_6o(_An._Sr()), 2));
+  // _W3(_An, _Bn, _An._jr, 1, 1, 0, 0, 1);
+  // _V6(_An, _Bn, 176, -230, _GY, 1, 1, 1, 0);
+  // _GY = yyfplus(_GY, 50);
+  // _An._jr = _e7(
+  //   _An,
+  //   _Bn,
+  //   _05(_An, _Bn, "All_money_x_2"),
+  //   _An.x,
+  //   yyfplus(_6o(_An.y), _6o(_GY)),
+  //   380,
+  //   500,
+  //   0.45,
+  //   _On(_An, _Bn, global._Wu)._2F,
+  //   _On(_An, _Bn, global._Wu)._RG,
+  //   1,
+  //   1,
+  //   1,
+  //   0
+  // );
+  // _On(_An, _Bn, _An._jr)._Tr(yyfminus(_6o(_An._Sr()), 2));
+  // _W3(_An, _Bn, _An._jr, 1, 1, 0, 0, 1);
+  // _V6(_An, _Bn, 176, -230, _GY, 1, 1, 1, 0);
+  // _An._pG = -1;
+  // _GY = yyfplus(_GY, 140);
+  // if (yyfequal(global._rG, new Long(1834768886, 1, false))) {
+  //   {
+  //     _An._pG = _T8(_An, _Bn, 51, __4(_An, _Bn, "BUY"), 16777215, 0, 457, 5);
+  //     _On(_An, _Bn, _An._pG)._mp(_An.x);
+  //     _On(_An, _Bn, _An._pG)._op(yyfplus(_6o(_An.y), 165));
+  //     _V3(_An, _Bn, _An._pG, 1, 1, 0);
+  //   }
+  // } else {
+  //   if (yyfequal(global._rG, 214218)) {
+  //     {
+  //       _An._pG = _T8(
+  //         _An,
+  //         _Bn,
+  //         173,
+  //         _05(_An, _Bn, "Start_free_trial"),
+  //         16777215,
+  //         999,
+  //         457,
+  //         1.99
+  //       );
+  //       _On(_An, _Bn, _An._pG)._sA = yyfminus(_On(_An, _Bn, _An._pG)._sA, 5);
+  //       _On(_An, _Bn, _An._pG)._mp(_An.x);
+  //       _On(_An, _Bn, _An._pG)._op(yyfplus(_6o(_An.y), _6o(_GY)));
+  //       {
+  //         var _HY = _In(_An._pG);
+  //         for (var _IY in _HY) {
+  //           if (!_HY.hasOwnProperty(_IY)) continue;
+  //           var _JY = _HY[_IY];
+  //           if (_JY._Ln) continue;
+  //           if (!_JY._Mn) continue;
+  //           _V3(
+  //             _JY,
+  //             _An,
+  //             _e7(
+  //               _JY,
+  //               _An,
+  //               __4(_JY, _An, "Free for 3 days, 4.99$ per week after"),
+  //               _JY.x,
+  //               yyfplus(_6o(_JY.y), 25),
+  //               300,
+  //               50,
+  //               1,
+  //               _On(_An, _Bn, global._Wu)._yF,
+  //               16777215,
+  //               0.5,
+  //               1,
+  //               1,
+  //               0
+  //             ),
+  //             1,
+  //             1,
+  //             0
+  //           );
+  //         }
+  //       }
+  //       _On(_An, _Bn, _An._pG)._Tr(yyfminus(_6o(_An._Sr()), 5));
+  //       _W3(_An, _Bn, _An._pG, 1, 0, 0, 0, 1);
+  //     }
+  //   }
+  // }
+  // {
+  //   var _KY = _In(_An._pG);
+  //   for (var _LY in _KY) {
+  //     if (!_KY.hasOwnProperty(_LY)) continue;
+  //     var _MY = _KY[_LY];
+  //     if (_MY._Ln) continue;
+  //     if (!_MY._Mn) continue;
+  //     {
+  //       _m4(_MY, _An, 0, 0);
+  //       _G2(_MY, _An, 0.9, 0.9, 0.6, 11, 0, 0, 0);
+  //       _G2(_MY, _An, 0.1, 0.1, 0.6, 11, 1, 1, 0);
+  //     }
+  //   }
+  // }
+  // _GY = yyfplus(_GY, 100);
+  // _An._oI = _17(_An, _Bn, _An.x, yyfplus(_6o(_An.y), _6o(_GY)), -1, 429);
+  // _27(
+  //   _An,
+  //   _Bn,
+  //   _An._oI,
+  //   0,
+  //   0,
+  //   __4(_An, _Bn, "NO, THANKS"),
+  //   200,
+  //   120,
+  //   0.9,
+  //   _On(_An, _Bn, global._Wu)._yF,
+  //   _On(_An, _Bn, global._Wu)._RG
+  // );
+  // _87(_An, _Bn, _An._oI, -100, -30, 100, 30);
+  // _On(_An, _Bn, _An._oI)._fG = 0.5;
+  // _47(_An, _Bn, _An._oI, 0.8);
+  // {
+  //   var _NY = _In(_An._oI);
+  //   for (var _OY in _NY) {
+  //     if (!_NY.hasOwnProperty(_OY)) continue;
+  //     var _PY = _NY[_OY];
+  //     if (_PY._Ln) continue;
+  //     if (!_PY._Mn) continue;
+  //     {
+  //       _m4(_PY, _An, 0, 0);
+  //       _G2(_PY, _An, 1, 1, 0.6, 11, 0, 1, 0);
+  //     }
+  //   }
+  // }
+  // _V3(_An, _Bn, _An._oI, 1, 0, 0);
+  // _S4(_An, _Bn, _An.id, 4, _q4(_An, _Bn, 0.25, 0.7));
+  // _An._QY = 0 ? 1 : 0;
 } // /// @description Insert description here
 function _Fk(_An, _Bn) {
   _n4(_An, _Bn);
@@ -45983,6 +45983,7 @@ function _Ll(_An, _Bn) {
   _An.__Y = 1;
 }
 function _Ml(_An, _Bn) {
+  console.log("_Ml entered");
   // _An._mp(_An.x + yyftime(_6o(_An._EK), _6o(global._uv)));
   _An._op(_An.y + yyftime(_6o(_An._FK), _6o(global._uv)));
   if (yyfgreater(_An.__Y, 0)) {
