@@ -43352,32 +43352,33 @@ function _Ji(_An, _Bn) {
     0
   );
   _V3(_An, _Bn, _An._OW, 0, 0, 0);
-  // {
-  //   var _PW = _In(_An._OW);
-  //   for (var _QW in _PW) {
-  //     if (!_PW.hasOwnProperty(_QW)) continue;
-  //     var _RW = _PW[_QW];
-  //     if (_RW._Ln) continue;
-  //     if (!_RW._Mn) continue;
-  //     {
-  //       _67(
-  //         _RW,
-  //         _An,
-  //         0.5,
-  //         0.5,
-  //         0,
-  //         yyfminus(_6o(_On(_An, _Bn, _An._HW)._8o), 100)
-  //       );
-  //       _RW._bo = 0.5;
-  //       _I2(_RW, _An, 1, 1, 0.5, 3);
-  //     }
-  //   }
-  // }
-  if (yyflessequal(_kp, 0)) {
-    {
-      _c4(_An, _Bn, _An._HW);
+  {
+    var _PW = _In(_An._OW);
+    for (var _QW in _PW) {
+      if (!_PW.hasOwnProperty(_QW)) continue;
+      var _RW = _PW[_QW];
+      if (_RW._Ln) continue;
+      if (!_RW._Mn) continue;
+      {
+        _67(
+          _RW,
+          _An,
+          0.5,
+          0.5,
+          0,
+          yyfminus(_6o(_On(_An, _Bn, _An._HW)._8o), 100)
+        );
+        _RW._bo = 0.5;
+        _I2(_RW, _An, 1, 1, 0.5, 3);
+      }
     }
   }
+  console.log("HOOKS EnTERED");
+  // if (yyflessequal(_kp, 0)) {
+  //   {
+  //     _c4(_An, _Bn, _An._HW);
+  //   }
+  // }
 }
 function _Ki(_An, _Bn) {
   _n4(_An, _Bn);
