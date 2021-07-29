@@ -43234,6 +43234,7 @@ function _Ii(_An, _Bn) {
 function _Ji(_An, _Bn) {
   _n4(_An, _Bn);
   global._DJ = _An.id;
+  console.log("Global ID", _An.id);
   _S4(_An, _Bn, _An.id, 4, _q4(_An, _Bn, 0.25, 0.7));
   _An._YT = 69;
   _An._XT = 0.8;
@@ -43313,28 +43314,28 @@ function _Ji(_An, _Bn) {
       }
     }
   }
-  if (yyGetBool(_An._pG)) {
-    {
-      _V3(_An, _Bn, _An._pG, 0, 0, 0);
-      {
-        var _LW = _In(_An._pG);
-        for (var _MW in _LW) {
-          if (!_LW.hasOwnProperty(_MW)) continue;
-          var _NW = _LW[_MW];
-          if (_NW._Ln) continue;
-          if (!_NW._Mn) continue;
-          {
-            _NW._rA = yyfminus(_NW._rA, 20);
-            _NW._uA = 0.7;
-            _V6(_NW, _An, 63, 80, _NW._sA, 0.9, 1, 1, 0);
-            _67(_NW, _An, 0.5, 0.5, 0, 430);
-            _m4(_NW, _An, 0, 0);
-            _G2(_NW, _An, 0.9, 0.9, 0.6, 11, 0, 0.5, 0);
-          }
-        }
-      }
-    }
-  }
+  // if (yyGetBool(_An._pG)) {
+  //   {
+  //     _V3(_An, _Bn, _An._pG, 0, 0, 0);
+  //     {
+  //       var _LW = _In(_An._pG);
+  //       for (var _MW in _LW) {
+  //         if (!_LW.hasOwnProperty(_MW)) continue;
+  //         var _NW = _LW[_MW];
+  //         if (_NW._Ln) continue;
+  //         if (!_NW._Mn) continue;
+  //         {
+  //           _NW._rA = yyfminus(_NW._rA, 20);
+  //           _NW._uA = 0.7;
+  //           _V6(_NW, _An, 63, 80, _NW._sA, 0.9, 1, 1, 0);
+  //           _67(_NW, _An, 0.5, 0.5, 0, 430);
+  //           _m4(_NW, _An, 0, 0);
+  //           _G2(_NW, _An, 0.9, 0.9, 0.6, 11, 0, 0.5, 0);
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
   _An._OW = _e7(
     _An,
     _Bn,
